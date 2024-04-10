@@ -1,0 +1,53 @@
+body {
+    background-color: gray;
+    max-width: 2000px;
+    margin: auto;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 8px;
+    padding: 5px 30px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.pagecontainer {
+    max-width: 1600px;
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    align-self: stretch;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.sketchcontainer {
+    background-color: white;
+    max-width: 1600px;
+    padding-bottom: 100%;
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    align-self: stretch;
+    align-items: stretch;
+}
+
+.sketchrow {
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+    flex-grow: 1;
+    padding-bottom: 0px;
+}
+
+.sketchbox {
+    padding-bottom: 100%;
+    flex-grow: 1;
+}
